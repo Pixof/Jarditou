@@ -1,0 +1,150 @@
+
+Etat d'avancement MAJ :   
+
+Architecture dossier :
+sortie "index" du dossier : OK 
+dossier app : css/ src / Img / script / index.php : OK
+
+Formulaire inscription :
+PHP
+supprimer le champs "login" identification par email : OK
+Vérification : "Ctrl_ins.php" des MPD sur le PHP : OK
+Ajouter les variables $role + $date de l'inscription dans php à insérer dans la bdd : OK
+
+SQL
+Réaliser l'implémentation de la BDD des données saisies dans le formulaire : OK
+réaliser le fichier de connexion à la BDD : OK
+Définir les droits admin / user dans Phpmyadmin :OK
+
+Formulaire Contact :
+PHP
+Correction : Probleme de date, select : le sujet de la demande et du genre : OK
+Réaliser fonction d'envoi d'email sans stockage en BDD lors d'une demande de contact : manque outil de mail serveur
+
+
+Formulaire de connexion :
+PHP
+mettre en place la Vérification des MDP avec password_verify() : OK
+Email d'alerte pour la connexion
+
+
+Page produits :
+
+
+Rest à faire :
+
+Mettre logo check et croix rouge pour dispo ou blocker
+Bloquer les saisies erronée via html ou PHP : Register / auth / contact coté htlm ok - Controle donnée php restant
+Fonction ajout photo à mettre en place OK
+Afficher photo produit page de détail + update + delete pour avoir le visu du produit : (en cour)
+Rendre le disposition responsive
+créer une pagination pour le tableau des produits OK
+Mettre le signe euro ou dollars aux prix OK
+créer une page produit pour client
+
+Revoir les formulaire de contact :
+Restriction de la saisie coté thml ok
+
+formulaire inscription :
+restriction des champs dans la saisie coté html ok
+ajouter des champs de controle de création de compte (adresse, ville, CP)
+
+Page d'accueil :
+Créer une page attrayante avec une belle photo
+revoir la dispoition du text
+
+Accès Admin/ client :
+Créer le dashbord admin (catégorie/produit/les admins)
+Envoi email à mettre en place
+mot de passe : limiter le minimum et le max : OK
+intégrer les données en minuscule dans la BDD au moment de la sauvegarde
+Mettre en place l'ajout de fichier
+
+Revoir le footer : ajout horaire OK / lieux OK  / réseau sociaux OK
+Footer : Mettre en place les liens avec de la vrai documentations / Retravailler les logos
+Revoir navbarre : Disposition des éléments / Le lien des éléments OK
+
+PHP - Front :
+Revoir l'esthétique du tableau : centré les éléments OK / titre du tableau : Nos produits  OK / Revoir l'emplacement du btn add article OK
+modifier le style des dates OK
+
+Page détail produit:
+Mettre un titre à la page : Détail du produit : (nom de produit)/ Mise en page comme formulaire contact ()
+/ revoir les btn + couleur / Faire pareil sur la page 'update' OK
+
+Page suppression :
+Centré le contenu / mettre un titre voyant / avoir la photo / revoir les btn + couleu 
+/ créer page de confirmation de suppression / Mettre des restriction pour les champs (guider la saisie) OK
+
+Page de création : 
+Mettre un titre / mise en page comme le formulaire / revoir btn OK
+
+PHP
+Lié les données BDD au tableau des produits : OK
+Connexion BBD :OK
+Récupération des infos : OK
+Mise en page des données : NOK
+revoir les variables si c'est bien anglais : OK
+Création bouton : Ajout de produit : OK
+
+SQL
+Créer les fichier de connexion : NOK
+
+Page détail du produit :
+Créer formulaire de détail du produit : OK 
+Configurer les boutons : modification -> fichier de détail pour modification, annulation : retourne à la liste 
+des produit ou suppression : suppression en base de donnée via forulaire de suppresion. : OK
+
+SQL 
+Créer la table produit  : OK
+
+Page d'ajout :
+Création du formulaire : OK
+Controle du formulaire : OK
+Problème ajout "selecté pour produit bloquer : Envoi BDD OK avec le produit bloqué mais pas avec quand il est non bloqué ça ne s'envoi pas.: OK
+
+
+Page modification :
+Page modification créer : OK
+Problématique :  dans le fonctionnement en update à revoir . OK
+
+Page suppression :
+Page créer : OK
+Fonction active : OK
+Problématique : Suppression de l'article dès qu'on clic sur le bouton supprimer et non après valdiation de supprimer : OK
+
+
+Rest à faire : 
+
+
+
+
+page connexion :
+bien définir deux boite/ deux élements : J'ai un compte / je n'ai pas de compte : OK
+centré le contenue dans le boite  OK
+
+page dinscription/contact :
+écarte entre vos coodonnées et ces zone = trop importante : OK 
+réuidre la larguer des champs de saisies : OK
+modifier le visuel de la saisie de la date : NOK
+Modifier le champs de recherd 'un produit + logo de recherche : Partiel
+Metttre des logo pour "se connecter" : NOK
+
+Global :
+Php :
+passer l'ensemble des variable ou champs en anglais (respecter camelCase ou snake_case) : OK
+Centraliser la connexion a la BDD via un seul fichier php : OK
+Problématique : Revoir le chemin des "include" haeder / connect BDD Problème lien trop long, revoir arborescence.
+
+SQL
+créer BDD via script SQL : OK
+Créer : Table user : OK / role (role_id = 1 client, admin = 2) : OK  
+Lié les tables User/ role SQL : problème de clef étrangère : OK
+
+
+A voir : 
+PHP Storm 
+optimisation du code : limiter la répétition des conditions
+création de fonction 
+ajouter un onglet : Votre panier : OK
+
