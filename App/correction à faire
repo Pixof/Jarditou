@@ -1,5 +1,5 @@
 
-Etat d'avancement MAJ :   
+Etat d'avancement MAJ :  test  
 
 Architecture dossier :
 sortie "index" du dossier : OK 
@@ -14,7 +14,7 @@ Ajouter les variables $role + $date de l'inscription dans php à insérer dans l
 SQL
 Réaliser l'implémentation de la BDD des données saisies dans le formulaire : OK
 réaliser le fichier de connexion à la BDD : OK
-Définir les droits admin / user dans Phpmyadmin :OK
+Définir les droits admin / user dans Phpmyadmin :OK 
 
 Formulaire Contact :
 PHP
